@@ -14,7 +14,7 @@ import sys
 #
 
 def miniMaxSum(arr):
-    min_number: int = 99999
+    min_number: int = 999999999999
     max_number: int = 0
 
     for i in arr:
@@ -38,6 +38,6 @@ def miniMaxSum(arr):
 
 
 if __name__ == '__main__':
-    arr = list(map(int, input().rstrip().split()))
+    # arr = list(map(int, input().rstrip().split()))
 
-    miniMaxSum(arr)
+    miniMaxSum([256741038, 623958417, 467905213, 714532089, 938071625])
