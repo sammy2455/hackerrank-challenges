@@ -39,5 +39,5 @@ def miniMaxSum(arr):
 
 if __name__ == '__main__':
     # arr = list(map(int, input().rstrip().split()))
-
-    miniMaxSum([256741038, 623958417, 467905213, 714532089, 938071625])
+    arr = [256741038, 623958417, 467905213, 714532089, 938071625]
+    miniMaxSum(arr)
