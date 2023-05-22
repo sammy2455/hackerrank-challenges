@@ -34,14 +34,12 @@ def timeConversion(s):
 
 
 if __name__ == '__main__':
-    # fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    # s = input()
-    s = "12:45:54PM"
+    s = input()
 
     result = timeConversion(s)
 
-    # fptr.write(result + '\n')
-    print(result)
+    fptr.write(result + '\n')
 
-    # fptr.close()
+    fptr.close()
